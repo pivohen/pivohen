@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        
+        // Ввод гипотенузы (c)
+        System.out.print("Введите длину гипотенузы (c): ");
+        double hypotenuse = scanner.nextDouble();
+
+        // Ввод другого катета (a)
+        System.out.print("Введите длину катета (a): ");
+        double otherLeg = scanner.nextDouble();
+
+        // Вычисление длины катета (b)
+        double length = Math.sqrt(hypotenuse * hypotenuse - otherLeg * otherLeg);
+
+        // Вывод результата
+        System.out.println("Длина катета (b): " + length);
+    }
+}
