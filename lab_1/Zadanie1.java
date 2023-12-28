@@ -1,7 +1,9 @@
-package lab_1;
+package lab1;
 
-public class Zadanie1 {
-    public static void  main(String[] args) {
-
+public class zadanie1 {
+        public zad1() {
     }
+        public static void main(String[] args) {
+        System.out.println("Hello world!");
+        }
 }
