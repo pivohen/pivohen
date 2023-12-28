@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Ввод первого числа
+        System.out.print("Введите первое число: ");
+        double number1 = scanner.nextDouble();
+
+        // Ввод второго числа
+        System.out.print("Введите второе число: ");
+        double number2 = scanner.nextDouble();
+
+        // Сумма
+        double sum = number1 + number2;
+        System.out.println("Сумма чисел: " + sum);
+
+        // Разность
+        double difference = number1 - number2;
+        System.out.println("Разность чисел: " + difference);
+
+        // Произведение
+        double product = number1 * number2;
+        System.out.println("Произведение чисел: " + product);
+    }
+}
