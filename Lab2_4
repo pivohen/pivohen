@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        
+        // Ввод высоты
+        System.out.print("Введите высоту (h): ");
+        double height = scanner.nextDouble();
+
+        // Ускорение свободного падения на Земле
+        double gravitationalAcceleration = 9.8; // м/с^2
+
+        // Вычисление времени свободного падения
+        double time = Math.sqrt((2 * height) / gravitationalAcceleration);
+
+        // Вывод результата
+        System.out.println("Время свободного падения: " + time + " секунд");
+    }
+}
